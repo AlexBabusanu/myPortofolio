@@ -83,4 +83,41 @@ nav li {
 .project .text {
 	height:100%;
 	width:50%;
+	position:relative;
+}
+ 
+.text ul {
+	list-style: none;
+	position:absolute;
+	bottom:50px;
+	padding:0;
+}
+.text li {
+	float:left;
+	margin:15px;
+	width:64px;
+	height:64px;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+.text button {
+	position:absolute;
+	bottom:10px;
+}
+.text img {
+	position:absolute;
+	width:inherit;
+	height:inherit;
+}
+.text ul p {
+	opacity:0;
+}
+.text li:hover p {
+	opacity:1;
+}
+.text li:hover img {
+	opacity:0;
 }

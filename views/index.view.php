@@ -22,7 +22,8 @@
 
 				<ul>
 					<?php foreach($project["tech"] as $tech) : ?>
-					<li><?= $tech ?> </li>
+					<li><img src="">
+						<p><?= $tech ?></p></li>
 					<?php endforeach ?> 
 				</ul>
 				<button>demo</button>
@@ -32,6 +33,7 @@
 	</div>
 </div>
 
+<?php require("shared/footer.php"); ?>
 
 
 
