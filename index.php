@@ -1,5 +1,4 @@
 <?php
 
-echo "hello world";
-
-echo "second test";
+$projects = require("projects.php");
+require("controller/index.controller.php");

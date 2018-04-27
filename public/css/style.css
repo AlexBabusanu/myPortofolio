@@ -1,0 +1,86 @@
+body {
+	margin:0;
+	padding:0;
+}
+.heroBackground {
+	position:absolute;
+	width:100%;
+	height:80vh;
+	background-color:gray;
+	transform:skewY(-12deg);
+	transform-origin:0;
+	top:0;
+	left:0;
+	z-index:-5;
+}
+.container {
+	max-width:920px;
+	margin:auto;
+	top:0;
+}
+header {
+	position:fixed;
+	width:100%;
+	background: red;
+	top:0;
+	z-index:10;
+}
+nav {
+	float:right;
+}
+nav ul {
+	list-style: none;
+	margin:0;
+}
+nav li {
+	float:left;
+	margin:15px;
+}
+
+.name {
+	position:relative;
+	height:60vh;
+	width:100%;
+	display:flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	align-items: center;
+}
+.about {
+	width:90%;
+	margin:50px auto;
+
+}
+.headAbout {
+	height:28px;
+	width:100%;
+	background:gainsboro;
+	border-radius: 10px 10px 0 0;
+}
+.bodyAbout {
+	background:lightslategrey;
+	width:100%;
+	height:500px;
+	box-shadow:0 50px 100px rgba(50,50,93,.15), 0 15px 35px rgba(50,50,93,.2), 0 5px 15px rgba(0,0,0,.12);
+
+}
+
+
+.project {
+	height:40vh;
+	width:90%;
+	margin:50px auto;
+	box-shadow:0 50px 100px rgba(50,50,93,.15), 0 15px 35px rgba(50,50,93,.2), 0 5px 15px rgba(0,0,0,.12);
+	display:flex;
+	justify-content: space-between;
+}
+.project .image {
+	width:40%;
+	height:100%;
+	background-size:cover;
+	background-position: center
+}
+.project .text {
+	height:100%;
+	width:50%;
+}
