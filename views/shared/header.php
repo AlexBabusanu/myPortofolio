@@ -9,9 +9,9 @@
 		<div class="container">
 			<nav>
 				<ul>
-					<li>Home</li>
-					<li>Project</li>
-					<li>Contact</li>
+					<li><a href="/">Home</a></li>
+					<li><a class="proj" href="#">Projects</a></li>
+					<li><a href="/portofolio">Contact</a></li>
 				</ul>
 			</nav>
 	</div>
